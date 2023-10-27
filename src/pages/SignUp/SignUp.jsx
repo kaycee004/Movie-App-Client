@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import AuthContext from "../../context/AuthContext";
 import Spinner from "../../utils/Spinner";
 import useAuth from "../../hooks/useAuth";
+import { useState } from "react";
 
 const Signup = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);
